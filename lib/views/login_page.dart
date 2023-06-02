@@ -54,7 +54,7 @@ class _LoginPageState extends State<LoginPage> {
                 labelText: 'Email',
                 hintText: 'Enter your email address',
                 prefixIcon: Icon(Icons.mail),
-                controller: _emailController, // Provide the controller
+                controller: _emailController,
               ),
               SizedBox(height: 26),
               TextFormFieldWidget(
@@ -62,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                 labelText: 'Password',
                 hintText: 'Enter your password',
                 prefixIcon: Icon(Icons.lock),
-                controller: _passwordController, // Provide the controller
+                controller: _passwordController,
               ),
               SizedBox(height: 16),
               Row(
@@ -120,7 +120,7 @@ class _LoginPageState extends State<LoginPage> {
             heightFactor: 0.94,
             child: SafeArea(
               child: Container(
-                color: colorScheme.primary,
+                color: colorScheme.secondary,
                 child: Padding(
                   padding: const EdgeInsets.all(16),
                   child: Column(
