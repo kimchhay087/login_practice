@@ -19,11 +19,11 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Email: ${email ?? ""}',
+              'Email: ${email}',
               style: TextStyle(fontSize: 24),
             ),
             Text(
-              'Password: ${password ?? ""}',
+              'Password: ${password}',
               style: TextStyle(fontSize: 24),
             ),
           ],
